@@ -4,16 +4,37 @@
 <html>
 <head>
    <title>Hangman</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
+<section class="hero is-primary">
+   <div  class="hero-body"></div>
+   <div  class="container"></div>
+   <h1   class="title is-1">Raad de goede letter</h1>
+   <h2   class="subtitle">mijn eerste game!</h2>
+   
+
+
+</section>
 <body>
-   <h1>Raad de goede letter</h1>
    <br>
    <div>
-       <input type="text" id="guess">
-       <button onclick="checkWord()" value="Submit">Submit</button>
+       <input type="text" class="card" id="guess">
+       <a class="button is-success is-rounded" onclick="checkWord()" value="Submit">Submit</a>
    </div>
 
 
 <script src='script.js'></script>
+<footer class="card-footer" >
+   <div class="card-footer-item">
+         <a href="https://www.github.com" target="_blank" class="button is-large">
+         <span class="icon is-medium">
+               <i class="fab fa-github"></i>
+             </span>
+             <span>GitHub</span>
+           </a>
+
+   </div>
+</footer>
 </body>
 </html>
