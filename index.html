@@ -6,6 +6,8 @@
    <title>Hangman</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="checker.css">  -->
 </head>
 <section class="hero is-primary">
    <div  class="hero-body"></div>
@@ -18,14 +20,14 @@
 </section>
 <body>
    <br>
-   <div>
+   <div id="wrapper">
        <input type="text" class="card" id="guess">
        <a class="button is-success is-rounded" onclick="checkWord()" value="Submit">Submit</a>
    </div>
 
 
 <script src='script.js'></script>
-<footer class="card-footer" >
+<footer class="hero is-primary" >
    <div class="card-footer-item">
          <a href="https://www.github.com" target="_blank" class="button is-large">
          <span class="icon is-medium">

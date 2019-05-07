@@ -1,9 +1,33 @@
-.footer {
+header { 
+    text-align: center;
+	width: auto; 
+	margin: 0 auto; 
+}
+body {
+    width: auto; 
+	margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#wrapper {
+    text-align: center
+    }
+#card {
+    text-align: center;
+    margin: 5px;
+    bottom: 5px;
+}
+
+#footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
- }
+    width: 100%;    
+}
+#card-footer-item {
+    height:100px;
+}
